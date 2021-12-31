@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/SFmovies/static/css/main.d2af7607.css",
-    "main.js": "/SFmovies/static/js/main.14a21208.js",
+    "main.js": "/SFmovies/static/js/main.c9c87e65.js",
+    "static/js/mapbox-gl-csp-worker.e6be4043.worker.js": "/SFmovies/static/js/mapbox-gl-csp-worker.e6be4043.worker.js",
     "static/media/map-pin.png": "/SFmovies/static/media/map-pin.c20633cee75f41cdeab2.png",
     "index.html": "/SFmovies/index.html",
     "main.d2af7607.css.map": "/SFmovies/static/css/main.d2af7607.css.map",
-    "main.14a21208.js.map": "/SFmovies/static/js/main.14a21208.js.map"
+    "main.c9c87e65.js.map": "/SFmovies/static/js/main.c9c87e65.js.map"
   },
   "entrypoints": [
     "static/css/main.d2af7607.css",
-    "static/js/main.14a21208.js"
+    "static/js/main.c9c87e65.js"
   ]
 }
