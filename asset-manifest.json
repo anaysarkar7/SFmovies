@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/SFmovies/static/css/main.d2af7607.css",
+    "main.js": "/SFmovies/static/js/main.3d2ee5dc.js",
+    "static/media/map-pin.png": "/SFmovies/static/media/map-pin.c20633cee75f41cdeab2.png",
+    "index.html": "/SFmovies/index.html",
+    "main.d2af7607.css.map": "/SFmovies/static/css/main.d2af7607.css.map",
+    "main.3d2ee5dc.js.map": "/SFmovies/static/js/main.3d2ee5dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2af7607.css",
+    "static/js/main.3d2ee5dc.js"
+  ]
+}
