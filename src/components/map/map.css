@@ -1,0 +1,97 @@
+.map-button {
+  margin: 5px 0 5px 8px;
+  padding: 3px;
+  color: black;
+  background-color: grey;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  z-index: -1;
+}
+.map-button:hover {
+  background-color: black;
+  color: white;
+}
+.all-markers {
+  z-index: 6;
+}
+.mapboxgl-popup-content {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.mapboxgl-popup-tip {
+  display: none;
+}
+.card-title {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 10%;
+  cursor: pointer;
+  list-style: none;
+  border: hidden;
+  padding: 5px;
+  background-color: grey;
+  text-align: center;
+  border-radius: 5px;
+  height: 2.5px;
+  width: fit-content;
+  z-index: -1;
+}
+.card-title:hover {
+  height: fit-content;
+  width: fit-content;
+  font-size: 110%;
+  transition-duration: 1s;
+  background-color: rgb(172, 172, 172);
+  visibility: visible;
+  z-index: 1;
+}
+.main-map {
+  position: relative;
+  overflow: hidden;
+}
+.reload{
+  color: white;
+  background-color: black;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 200px;
+}
+/* loading spinner */
+.lds-ripple {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin:50px 0 0 200px;
+}
+.lds-ripple div {
+  color: greenyellow;
+  font-size: 200%;
+  font-weight: 100;
+  font-family: sans-serif;
+  position: absolute;
+  border: 4px solid #fff;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}

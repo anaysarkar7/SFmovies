@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Inconsolata:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar-ul {
+  color: white;
+  background-color: black;
+  list-style: none;
+  padding: 10px;
+}
+.navbar-ul li {
+  display: inline-block;
+}
+
+.logo-text {
+  font-family: "Fira Sans", sans-serif;
+}
+.navbar-filter {
+  font-family: "Inconsolata", monospace;
+  font-size: 12px;
+  margin: 0 0 0 30px;
+}
+.navbar-select-div {
+  display: inline;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+}
+.navbar-selected-option{
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.autocomplete-searchbar{
+  width: 200px;
+  margin: 0 10px 0 0;
+  padding:0 0 0 10px;
+  border-radius: 5px;
+  height:20px;
+  border: none;
+}
+.autocomplete-go-button{
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+  text-align: center;
+  margin: 0 15px 0 0;
+  height: 30px;
+  padding: 0 5px 0 5px;
+}
+.autocomplete-remove-filter{
+  align-items: center;
+  background-color: black;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  height: 25px;
+  padding: 0 5px 0 5px;
+}
+.options-ul{
+  overflow: scroll;
+  display: inline;
+  position: absolute;
+  /* visibility: hidden; */
+}
+.options{
+  display: list-item;
+  position: relative;
+}
